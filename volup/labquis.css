@@ -1,0 +1,21 @@
+.albums {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+}
+
+.album {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: calc(50% - 20px); /* Adjust based on gap */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.album img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
